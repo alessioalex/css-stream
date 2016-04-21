@@ -1,0 +1,24 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "3.3.6",
+    "flat-ui": "github:designmodo/flat-ui#505d9a3b9901ac75cec65441823141d92477ddd1"
+  },
+  "dependencies": {
+    "concat-with-sourcemaps": "^1.0.4",
+    "datauri": "^1.0.4",
+    "fs-extra": "^0.27.0",
+    "is-image": "^1.0.1",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.5.2",
+    "through2": "^2.0.1"
+  }
+}

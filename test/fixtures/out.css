@@ -1,0 +1,19 @@
+body {
+  background: url('https://foo/bar.png');
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('../FONTS/GLYPHICONS-HALFLINGS-REGULAR.EOT');
+  src: url('../FONTS/GLYPHICONS-HALFLINGS-REGULAR.EOT?#IEFIX') format('embedded-opentype'),
+       url('../FONTS/GLYPHICONS-HALFLINGS-REGULAR.WOFF2') format('woff2'),
+       url('../FONTS/GLYPHICONS-HALFLINGS-REGULAR.WOFF') format('woff'),
+       url('../FONTS/GLYPHICONS-HALFLINGS-REGULAR.TTF') format('truetype'),
+       url('../FONTS/GLYPHICONS-HALFLINGS-REGULAR.SVG#GLYPHICONS_HALFLINGSREGULAR') format('svg');
+}
+
+.avatar {
+  background: url('IMAGES/AVATAR.PNG');
+}
+
